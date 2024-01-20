@@ -1,0 +1,22 @@
+.containers{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap :20px;
+    background-color: pink;
+}
+.items{
+    border: 8px solid black;
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+}
+@media(max-width: 475px){
+.containers{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media(max-width: 768px){
+    .containers{
+        grid-template-columns: repeat(3,1fr);
+    }
+    }
