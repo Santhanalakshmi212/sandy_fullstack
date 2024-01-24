@@ -1,0 +1,87 @@
+body{
+    margin: 100px;
+    font-size: xx-large;
+}
+.contain{
+    display:inline-flex;
+    justify-content:space-between;
+     flex-direction: row;
+     flex-wrap: wrap;
+     padding:3px;
+     font-size: 20px;
+}
+.a{
+background:linear-gradient(to top,white 50%,paleturquoise 50%);
+text-align: center;
+}
+.d{
+display:flex;
+    justify-content:space-between;
+     flex-direction: row;
+     flex-wrap: wrap;
+     padding:3px;
+     font-size: medium;
+}
+.b{
+display:flex;
+    justify-content:space-evenly;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+.img2{
+    float: right;
+}
+.pg3{
+    text-align: center;
+}
+.containers{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap :20px;
+    background-color: white;
+}
+.l6{
+    float:center;
+    text-align: center;
+    background-color: rgb(240, 220, 193);
+    padding: 50px;
+}
+.l1{
+    float:center;
+    text-align: center;
+    background-color: rgb(236, 206, 230);
+    padding: 50px;
+}
+.l2{
+    float:center;
+    text-align: center;
+    background-color: rgb(209, 255, 255);
+    padding: 50px;
+}
+.l3{
+    float:center;
+    text-align: center;
+    background-color: rgb(242, 209, 255);
+    padding: 50px;
+}
+.l4{
+    float:center;
+    text-align: center;
+    background-color: rgb(144, 150, 113);
+    padding: 50px;
+}
+.l5{
+    float:center;
+    text-align: center;
+    background-color: rgb(247, 242, 196);
+    padding: 50px;
+}
+.nav a:hover {
+     border-bottom: 3px solid rgb(138, 223, 223);
+        display:inline-flex;
+        justify-content:space-between;
+         flex-direction: row;
+         flex-wrap: wrap;
+         padding:3px;
+         font-size: 20px;
+}

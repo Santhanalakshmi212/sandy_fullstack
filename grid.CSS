@@ -10,7 +10,7 @@
     background-color: aqua;
     padding: 20px;
 }
-@media(max-width: 475px){
+@media(max-width: 900px){
 .containers{
     grid-template-columns: repeat(2,1fr);
 }
