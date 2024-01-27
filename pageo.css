@@ -1,9 +1,9 @@
 body{
-    margin: 100px;
+    margin: 80px;
     font-size: xx-large;
 }
 .contain{
-    display:inline-flex;
+    display:flex;
     justify-content:space-between;
      flex-direction: row;
      flex-wrap: wrap;
@@ -76,12 +76,139 @@ display:flex;
     background-color: rgb(247, 242, 196);
     padding: 50px;
 }
+.pack4{
+    margin: 5%;
+}
+.flex{
+    display:flex;
+    justify-content:space-evenly;
+     flex-direction: row;
+     flex-wrap: wrap;
+     padding:3px;
+     font-size: 20px;
+}
 .nav a:hover {
      border-bottom: 3px solid rgb(138, 223, 223);
-        display:inline-flex;
-        justify-content:space-between;
-         flex-direction: row;
-         flex-wrap: wrap;
+        display:inline-table;
+        justify-content:space-evenly;
          padding:3px;
          font-size: 20px;
 }
+.pg4{
+    text-align: center;
+}
+.page4{
+    background:linear-gradient(to top,paleturquoise 50%,paleturquoise 50%);
+    margin: 2%;padding: 3%;
+}
+.j4{
+    float: right;
+}
+.p5{
+    float: right;
+}
+.page5{
+        text-align: left;
+        margin-left: 10px;
+    }
+.pg5{
+    font-size:xx-large;
+}
+
+.overlap {
+    font-size: 15px;
+    display: inline;
+    height: 100px;
+    width: 200px;
+    padding: 25px;
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+}
+.p5 {
+    position: relative;
+    top:8px;
+    right: 180px;
+}
+.img52{
+    position: relative;
+    top: -20px;
+    float: right;
+}
+.img15{
+    float: right;
+}
+button{
+        background-color: darkcyan;
+        color: white;
+        height:50px;
+        width: 200px;
+        font-size: 20px;
+}
+button1{
+        background-color:white;
+        color: darkcyan;
+        height:50px;
+        width: 200px;
+        font-size: 20px;
+}
+.p7{
+    background:linear-gradient(to top,paleturquoise 50%,white 50%);
+    margin: 10px;
+}
+.context{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap :20px;
+}
+.f1{
+    padding: 35px;
+    background-color: white;
+}
+.f2{
+    padding: 35px;
+    background-color: white;
+}
+.f3{
+    padding: 35px;
+    background-color: white;
+}
+.page8{
+    background-color: black;
+    margin: 2%;padding: 1%;
+    
+}
+th{
+
+    text-align:left;
+    color:white;
+    padding: 10px;
+}
+td{
+    text-align:left;
+    color:lightgrey;
+    padding: 10px;
+}
+.fle{
+    display:flex;
+    justify-self:space-between;
+
+}
+.ia1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height:90%;
+  }
+.fin{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+.ro{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
