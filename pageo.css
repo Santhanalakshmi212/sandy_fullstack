@@ -1,6 +1,6 @@
 body{
     margin: 80px;
-    font-size: xx-large;
+    font-size: large;
 }
 .contain{
     display:flex;
@@ -152,31 +152,49 @@ button1{
         width: 200px;
         font-size: 20px;
 }
-.p7{
-    background:linear-gradient(to top,paleturquoise 50%,white 50%);
-    margin: 10px;
+.page7 p{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 25px;
 }
-.context{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap :20px;
+.page7h{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.page7{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.img7f{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: smaller;
+    gap: 30px;
+}
+.img7f p{
+    font-size: smaller;
+    text-align: left;
 }
 .f1{
     padding: 35px;
-    background-color: white;
+    background-color: aliceblue;
 }
 .f2{
     padding: 35px;
-    background-color: white;
+    background-color: aliceblue;
 }
 .f3{
     padding: 35px;
-    background-color: white;
+    background-color: aliceblue;
 }
+
+
+
+
 .page8{
     background-color: black;
-    margin: 2%;padding: 1%;
-    
+    margin: 1%;padding: 2%;
 }
 th{
 
